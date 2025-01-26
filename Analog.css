@@ -1,0 +1,104 @@
+body{
+    background-image: url("https://img.pikbest.com/origin/10/02/23/61wpIkbEsTWpc.jpg!w700wp");
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+.clockBody{
+    height: 280px;
+    width: 300px;
+    margin: 0 auto;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://png.pngtree.com/png-clipart/20231009/original/pngtree-antique-clock-face-without-hands-retro-photo-png-image_13292172.png");
+}
+
+
+
+.hourPointer{
+height: 100px;
+width: 5px;
+background-color: black;
+position: absolute;
+left: 50%;
+top: 100px;
+transform-origin: bottom;
+} 
+
+
+.minutePointer{
+height: 135px;
+width: 5px;
+background-color: black;
+position: absolute;
+left: 50%;
+top: 70px;
+transform-origin: bottom;
+}
+
+
+.secondPointer{
+height: 150px;
+width: 2px;
+background-color: black;
+position: absolute;
+left: 50%;
+top: 50px;
+transform-origin: bottom;
+
+}
+
+
+.box{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display:inline-flex;
+    align-items: center;
+    }
+
+.digi{
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    padding-top: 100px;
+
+        
+    
+}
+    .hoursBox{
+        background: goldenrod;
+        text-align: center;
+        font-weight: bolder;
+        justify-content: center;
+
+}
+
+.minutesBox{
+        background: lightslategray;
+        text-align: center;
+        font-weight: bolder;
+        justify-content: center;
+
+    }
+    .secondsBox{
+        background: yellowgreen;
+        text-align: center;
+        font-weight: bolder;
+        justify-content: center;
+
+    }
+
+    h3{
+        color: yellow;
+        background-color: red;
+    }
+
+
+
